@@ -1,15 +1,20 @@
 {
-  "name": "svelte-echarts",
+  "name": "@alchemilla/svelte-echarts",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Svelte component for Apache ECharts",
   "author": {
-    "name": "Brennen Herbruck",
-    "url": "https://github.com/bherbruck"
+    "name": "Alchemilla",
+    "url": "https://alchemilla.io"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bherbruck/svelte-echarts.git"
+    "url": "git+https://github.com/AlchemillaHQ/svelte-echarts.git"
+  },
+  "bugs": "https://github.com/AlchemillaHQ/svelte-echarts/issues",
+  "homepage": "https://github.com/AlchemillaHQ/svelte-echarts#readme",
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "dev": "svelte-kit sync && vite dev",

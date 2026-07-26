@@ -10,7 +10,7 @@
   import { EVENT_NAMES, type EventHandlers } from '$lib/svelte-echarts/constants/events'
   import { onMount } from 'svelte'
   import type { HTMLAttributes } from 'svelte/elements'
-  import type { ChartProps } from 'svelte-echarts/types'
+  import type { ChartProps } from '@alchemilla/svelte-echarts/types'
 
   let {
     init,

@@ -1,18 +1,21 @@
-# svelte-echarts
+# @alchemilla/svelte-echarts
 
-A simple [Apache ECharts](https://echarts.apache.org/) component for [Svelte](https://svelte.dev/)! Check out this [demo](https://bherbruck.github.io/svelte-echarts/).
+A simple [Apache ECharts](https://echarts.apache.org/) component for [Svelte](https://svelte.dev/).
+
+Maintained by [Alchemilla](https://alchemilla.io) as a fork of
+[bherbruck/svelte-echarts](https://github.com/bherbruck/svelte-echarts).
 
 ## 💿 Installation
 
 ```bash
-npm i -D svelte-echarts echarts
+npm i -D @alchemilla/svelte-echarts echarts
 ```
 
-## ⌨️ Usage [demo](https://bherbruck.github.io/svelte-echarts/)
+## ⌨️ Usage
 
 ```html
 <script>
-  import { Chart } from 'svelte-echarts'
+  import { Chart } from '@alchemilla/svelte-echarts'
 
   import { init, use } from 'echarts/core'
   import { BarChart } from 'echarts/charts'

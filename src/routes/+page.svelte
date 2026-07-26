@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-  import { Chart, type ECMouseEvent } from 'svelte-echarts'
+  import { Chart, type ECMouseEvent } from '@alchemilla/svelte-echarts'
 
   import { init, use } from 'echarts/core'
   import type { EChartsOption } from 'echarts'
@@ -82,7 +82,7 @@
 </script>
 
 <svelte:head>
-  <title>Examples - svelte-echarts</title>
+  <title>Examples - @alchemilla/svelte-echarts</title>
 </svelte:head>
 
 <Chart {init} {options} onclick={handleClick} />

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte'
-  import { Chart } from 'svelte-echarts'
+  import { Chart } from '@alchemilla/svelte-echarts'
 
   import { init, use } from 'echarts/core'
   import type { EChartsOption } from 'echarts'
@@ -59,7 +59,7 @@
 </script>
 
 <svelte:head>
-  <title>Tree-shaking | svelte-echarts</title>
+  <title>Tree-shaking | @alchemilla/svelte-echarts</title>
 </svelte:head>
 
 <Chart {init} {options} />

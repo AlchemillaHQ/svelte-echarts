@@ -11,8 +11,8 @@ const config = {
       strict: false,
     }),
     alias: {
-      'svelte-echarts': './src/lib/svelte-echarts',
-      'svelte-echarts/*': './src/lib/svelte-echarts/*',
+      '@alchemilla/svelte-echarts': './src/lib/svelte-echarts',
+      '@alchemilla/svelte-echarts/*': './src/lib/svelte-echarts/*',
     },
   },
 }

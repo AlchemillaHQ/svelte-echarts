@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Chart } from '$lib/svelte-echarts'
   import type { EChartsType } from 'echarts'
-  import type { ChartProps } from 'svelte-echarts/types'
+  import type { ChartProps } from '@alchemilla/svelte-echarts/types'
   import type { Writable } from 'svelte/store'
 
   let {
