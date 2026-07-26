@@ -2,6 +2,7 @@ name: Publish Package to npmjs
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,6 +26,6 @@ jobs:
       #   run: npm test
 
       - name: Publish to npm
-        run: pnpm publish
+        run: pnpm publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
