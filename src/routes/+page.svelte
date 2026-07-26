@@ -49,7 +49,7 @@
             second: '2-digit',
           }),
       },
-      data: data.map(({ timestamp }) => timestamp),
+      data: data.map(({ timestamp }) => timestamp.toISOString()),
     },
     yAxis: {
       type: 'value',
